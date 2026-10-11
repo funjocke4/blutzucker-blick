@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>Blutzucker-Blick – eigenständiges Blutstropfen-Symbol</title>
+  <desc>Ein roter Blutstropfen mit geschwungenem Lichtreflex im weißen Kreis mit dunklem Rand.</desc>
+  <defs>
+    <linearGradient id="red" x1="20%" y1="7%" x2="83%" y2="95%">
+      <stop offset="0" stop-color="#fc4f43"/>
+      <stop offset="0.50" stop-color="#e9222d"/>
+      <stop offset="1" stop-color="#a80722"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.87"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.13"/>
+    </linearGradient>
+  </defs>
+  <circle cx="512" cy="512" r="460" fill="#ffffff" stroke="#141719" stroke-width="28"/>
+  <path d="M 512,170 C 485,229 437,308 371,414 C 309,514 268,604 268,683 C 268,823 375,918 512,918 C 649,918 756,823 756,683 C 756,603 715,512 651,409 C 590,310 537,230 512,170 Z" fill="url(#red)"/>
+  <!-- The sharply tapered inner highlight is asymmetric by design. -->
+  <path d="M 441,393 C 394,464 353,535 340,609 C 333,650 333,690 348,722 C 350,661 372,608 406,558 C 444,503 461,447 441,393 Z" fill="url(#shine)"/>
+  <path d="M 620,444 C 674,551 700,627 699,696 C 698,794 628,860 530,872 C 636,859 728,781 728,682 C 728,601 682,516 620,444 Z" fill="#78051c" opacity="0.20"/>
+</svg>

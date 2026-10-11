@@ -1,0 +1,10 @@
+Blutzucker-Blick 1.3.4 – Bonbon und Läufer (interner Versionscode 45)
+
+In Android Studio den Unterordner android öffnen und per Run auf dem Samsung
+als Update installieren. Alte App NICHT deinstallieren. Bestehende Signatur
+(Debug/Release) muss übereinstimmen, damit die Messwerte erhalten bleiben.
+
+Anzeige „Letzter Wert“: Untergrenze -> Smiley + Bonbon; Obergrenze ->
+Smiley + Läufer; dazwischen Smiley. Symbole 20 Prozent größer.
+Nur Warnsymbole, keine Empfehlung für medizinisches Verhalten.
+Die sichere Fotoerkennung und das Bluetooth-Menü aus Build 44 bleiben erhalten.
